@@ -5783,6 +5783,16 @@
     </message>
     <!-- MESSAGE IDs 180 - 229: Space for custom messages in individual projectname_messages.xml files -->
 
+    <!-- MESSAGE 228 -->
+    <message id="228" name="ACTUATOR_OUTPUTS_DRL">
+      <description>Actuator outputs drl.</description>
+<!--      <field type="uint8_t" name="target_system">System ID</field>-->
+<!--      <field type="uint8_t" name="target_component">Component ID</field>-->
+      <!-- type 'bool' is not accepted -->
+      <field type="int8_t" name="usedrl">Boolean indicating use (1) or notuse (0) drl output </field>
+      <field type="float[4]" name="output"> </field>
+    </message>
+
     <!-- MESSAGE 229 -->
     <message id="229" name="KEY_COMMAND">
       <description>Keyboard char command.</description>
